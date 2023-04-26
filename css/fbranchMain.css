@@ -14,24 +14,47 @@
 
 /*JSを使いfixedクラスが付与された際の設定*/
 #header.fixed{
-	position: fixed;/*fixedを設定して固定*/
-  z-index: 999;/*最前面へ*/
-  top:0;/*位置指定*/
-  left:0;/*位置指定*/
+    position: fixed;/*fixedを設定して固定*/
+    z-index: 999;/*最前面へ*/
+    top:0;/*位置指定*/
+    left:0;/*位置指定*/
 }
 
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: center;
-    }
+    /* justify-content: center; */
+    justify-content: right;
+}
     
-    nav ul li a{
+nav ul li a{
     text-decoration: none;
-    color: #666;
+    color: #a5a1a1;
     padding:10px;
-    }
+}
     
-    section{
-    padding:300px 0;
-    }
+section{
+    padding:150px 0;
+}
+
+/* div table要素*/
+.header_stroing {
+    margin: 0 50 0 0;
+}
+
+.company_table_line {
+    display: table;
+    width: 600px;
+}
+
+.company_table_block {
+    display: table-cell;
+    /* border: solid 1px #999; */
+    width: 200px;
+}
+
+.company_table_key_cell {
+    background: #EEEEEE;
+    justify-content: center;
+    border-radius: 0px;
+}
