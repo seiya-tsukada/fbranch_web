@@ -4,12 +4,11 @@
 	width:100%;/*横幅指定*/
 	/*以下はレイアウトのためのCSS*/
 	display: flex;
-	justify-content: space-between;
+	justify-content: right;
 	align-items: center;
-	background:#333;
 	color:#fff;
 	text-align: center;
-	padding: 20px;
+	padding: 0px;
 }
 
 /*JSを使いfixedクラスが付与された際の設定*/
@@ -23,8 +22,7 @@
 nav ul{
     list-style: none;
     display: flex;
-    /* justify-content: center; */
-    justify-content: right;
+    justify-content: center;
 }
     
 nav ul li a{
@@ -34,7 +32,7 @@ nav ul li a{
 }
     
 section{
-    padding:150px 0;
+    padding: 150px 0;
 }
 
 /* div table要素*/
@@ -44,17 +42,23 @@ section{
 
 .company_table_line {
     display: table;
-    width: 600px;
+    width: 500px;
 }
 
 .company_table_block {
     display: table-cell;
-    /* border: solid 1px #999; */
-    width: 200px;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
 
 .company_table_key_cell {
     background: #EEEEEE;
     justify-content: center;
-    border-radius: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    vertical-align: middle;
+    width: 200px;
 }
