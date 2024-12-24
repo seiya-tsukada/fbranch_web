@@ -474,6 +474,26 @@ section {
     color: #fff;
     padding-right: 20px; }
 
+  .member_title {
+    font-size: 1.5rem;
+    line-height: 4.8rem;
+    letter-spacing: 1rem;
+    color: #6e804d; }
+
+  .member_name {
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    letter-spacing: 1rem;
+    text-decoration:underline;
+    text-decoration-color:#6e804d;
+    color: #000; }
+
+  .member_lead {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: 1rem;
+    color: #000; }
+
 .service_list {
   display: -webkit-box;
   display: -ms-flexbox;
