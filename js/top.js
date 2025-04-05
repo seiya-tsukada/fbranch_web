@@ -121,8 +121,9 @@ function setupSmoothScroll(header) {
 
       if (target) {
         const headerHeight = header ? header.offsetHeight : 0;
+        const targetRect = target.getBoundingClientRect();
         window.scrollTo({
-          top: target.offsetTop - headerHeight + 80,
+          top: window.scrollY + targetRect.top - headerHeight,
           behavior: "smooth"
         });
 
